@@ -1,0 +1,31 @@
+.stop__main_container{
+    /* border:1px solid red; */
+    /* background: url("../../images/business/stop_image.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ */
+    width:80%;
+    margin:auto;
+    color:#3F4255;
+    text-align: center;
+}
+.stop_img{
+    width:100%;
+    aspect-ratio: 1.5/1;
+}
+
+.stop_data{
+    font-size:46px;
+    font-weight:700;
+    line-height:120%;
+    padding:1rem;
+}
+button{
+    margin:auto;
+}
+
+@media (max-width:920px){
+    .stop_data{
+        font-size: 22px;
+    }
+}

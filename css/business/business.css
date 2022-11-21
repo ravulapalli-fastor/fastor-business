@@ -1,0 +1,36 @@
+@import url("./b_hero.css");
+@import url("./b_stop.css");
+@import url("./b_online.css");
+@import url("./b_help.css");
+@import url("./b_story.css");
+@import url("./b_success.css");
+@import url("./b_seller.css");
+
+
+.main_title{
+    font-size:var(--text-xlarge);
+    text-align:center;
+    font-weight:700;
+    line-height:120%;
+    color:#3F4255;
+}
+
+.main_description{
+    font-size:16px;
+    font-weight:400;
+    text-align:center;
+    line-height:150%;
+    font-family: "Inter";
+    color:#7B7D8A;
+    margin-top:-2rem;
+}
+
+@media (max-width:920px){
+    .main_title{
+        font-size:var(--text-low-medium);
+    }
+    .main_description{
+        font-size:12px;
+        margin-top:-1rem;
+    }
+}

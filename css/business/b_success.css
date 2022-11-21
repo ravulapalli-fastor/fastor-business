@@ -1,0 +1,81 @@
+.success_main_container{
+    background: url("../../images/business/successBg.svg");
+    width:100%;
+    min-height:890px;
+    max-height: max-content;
+    color:var(--secondary-color);
+    border:1px solid transparent;
+}
+#success_main_title{
+    color:var(--secondary-color);
+    margin-top:5rem;
+}
+.success_inner_container{
+    /* border:1px solid yellow; */
+    display:flex;
+    flex-direction: column;
+    margin-top:8rem;
+    /* align-items: center; */
+}
+.success_data_container{
+    /* border:1px solid red; */
+    width:87%;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.success_left{
+    text-align: left;
+    border-right: 1px solid var(--secondary-color);
+    height:80%;
+}
+.success_middle{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--secondary-color);
+    height:80%;
+}
+.success_middle>img:nth-child(2){
+    width:5%;
+
+}
+.success_right{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.success_description{
+    font-weight: 400;
+    font-family: 'Inter';
+    font-size:14px;
+    line-height:21px;
+}
+.successs_percent_title{
+    font-size:32px;
+    font-weight:700;
+    line-height:135%;
+ }
+ .success_percent{
+   font-size:100px;
+   font-weight:700;
+   line-height:100%;
+   margin-top:-0.1rem ;
+   margin-bottom:-0.1rem;
+ }
+ .success_percent_description{
+     font-size: 22px;
+     font-weight: 600;
+     line-height: 100%;
+ }
+ .hr{
+  width:50%;
+  margin:4rem auto;
+ }
+ 
