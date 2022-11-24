@@ -5,7 +5,7 @@
 @import url("./b_story.css");
 @import url("./b_success.css");
 @import url("./b_seller.css");
-
+@import url("./b_reviews.css");
 
 .main_title{
     font-size:var(--text-xlarge);
