@@ -12,6 +12,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="css/css2.css" rel="stylesheet">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap"
+    rel="stylesheet"
+  />
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,6 +38,7 @@
 
 </head>
 <body>
+    <div class="header__container"></div>
      
     <div class="hero__container">
         <img class="square_dots" alt="square dots" src="./images/business/Dots.svg"/>
@@ -52,15 +58,26 @@
                   <p class="hero_success_data">Success Result</p>
                 </div>
             </div>
-    
         </div>
     </div>
+    <!-- <div class="hero_container_mobile">
+        <div class="hero_img_container">
+            <img class="square_dots" alt="square dots" src="./images/business/Dots.svg"/>
+            <img class="gray_arrow" alt="gray_arrow" src="./images/business/grayArrow.svg"/>
+            <img class="orange_arrow" alt="orange_arrow" src="./images/business/orangeArrow.svg"/>
+            <img class="hero_img" alt="hero image" src="./images/business/heroImg.svg"/>
+            <div class="hero_success_container">
+              <div class="bg">90%</div>
+              <p class="hero_success_data">Success Result</p>
+            </div>
+        </div>
+    </div> -->
 
     <!-- seller start -->
     <div class="seller_main_container">
         <h3 class="main_title seller_title">
             As an 
-            <span>offline seller</span>, are you also following the same issue?
+            <span class="color_span">offline seller</span>, are you also following the same issue?
         </h3>
         <div class="seller_inner_container">
             <div class="seller_left">
@@ -80,7 +97,9 @@
                     </p>
                 </div>
             </div>
+            <div class="seller_middle_container">
             <img class="seller_middle"alt="seller" src="./images/business/seller.svg"/>
+            </div>
             <div class="seller_right">
                 <div class="seller_card">
                     <div class="seller_logo4_bg">
@@ -114,12 +133,13 @@
                 <p class="success_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius donec pretium lacus vestibulum sed ac. Blandit lorem nunc consequat euismod egestas pretium posuere et massa. Libero pretium, nulla euismod ut proin.</p>
                 <p class="success_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius donec pretium lacus vestibulum sed ac. Blandit lorem nunc consequat euismod egestas pretium posuere et massa. Libero pretium, nulla euismod ut proin.</p>
             </div>
+            <div class="success_mobile">
             <div class="success_middle">
                 <img alt="success" src="./images/business/SuccessLaptop.svg"/>
-                <img style="margin-top:2rem;width:40px;height:32px"alt="successs" src="./images/business/commaGray.svg"/>
+                <img salt="successs" src="./images/business/commaGray.svg"/>
             </div>
             <div class="success_right">
-                <p class="success_description">Analytics</p>
+                <p class="analytics_title">Analytics</p>
                 <div class="success_percent_container">
                     <h1 class="success_percent">74%</h1>
                     <p class="success_percent_description">Lorem Ipsum</p>
@@ -131,6 +151,7 @@
                 </div>
 
             </div>
+        </div>
         </div>
     </div>
 </div>
@@ -168,7 +189,7 @@
                     </div>
                 </div>
                 <div class="story_card card5">
-                    <div class="logo_container" style="width:120px;height:100px">
+                    <div class="logo_container">
                         <img src="./images/business/storePost.svg" alt="story" class="story_logo"/>
                     </div>
                     <p class="story_description">Share link on social media or with your clients to showcase your catalogue</p>
@@ -228,7 +249,7 @@
             </p>
 
             <div class="online_inner_container">
-                <div class="online_card card1">
+                <div class="online_card ol_card1 desktop">
                     <img alt="online" class="online_icon"
                     src="./images/business/onlineIcon1.svg"
                     />
@@ -236,9 +257,20 @@
                         Orders getting misplaced?
                     </p>
                 </div>
+                <img alt="online" class="online_flex_img" id="mobile_online_img" src="./images/business/onlineImg.svg"/>
+                
                 <div class="online_inner_flex_container">
                     <div class="online_flex_left">
-                        <div class="online_card card2">
+                        <div class="online_card ol_card1 mobile_online_card">
+                            <img alt="online" class="online_icon"
+                            src="./images/business/onlineIcon1.svg"
+                            />
+                            <p class="online_data">                
+                                Orders getting misplaced?
+                            </p>
+                        </div>
+
+                        <div class="online_card ol_card2">
                             <img alt="online" class="online_icon"
                             src="./images/business/onlineIcon1.svg"
                             />
@@ -246,7 +278,7 @@
                                 Selling online but still not satisfied?
                             </p>
                         </div>
-                        <div class="online_card card4">
+                        <div class="online_card ol_card4">
                             <img alt="online" class="online_icon"
                             src="./images/business/onlineIcon3.svg"
                             />
@@ -254,15 +286,15 @@
                             </p>
                         </div>
                     </div>
-                    <img alt="online" class="online_flex_img" src="./images/business/onlineImg.svg"/>
+                    <img alt="online" class="online_flex_img desktop" src="./images/business/onlineImg.svg"/>
                     <div class="online_flex_right">
-                        <div class="online_card card3">
+                        <div class="online_card ol_card3">
                             <img alt="online" class="online_icon"
                             src="./images/business/onlineIcon1.svg"
                             />
                             <p class="online_data">Paying high delivery charges to get the order delivered</p>
                         </div>
-                        <div class="online_card card5">
+                        <div class="online_card ol_card5">
                             <img alt="online" class="online_icon"
                             src="./images/business/onlineIcon2.svg"
                             />
@@ -277,7 +309,31 @@
 
     <!-- testimonals start -->
     <div class="reviews_main_container">
-        hi hello
+        <section className="reviews_main_container desktop">
+            <div class="reviews_inner_container">
+                <h1 class="main_title" id="reviews_title">
+                    What Do Our Clients Says About Us
+                </h1>
+         
+                <div class="reviews_data_container">
+         
+                 <div class="reviews_data_left_container">
+                 </div>
+                 <div class="reviews_data_middle_container">
+                   <div class="data_container"></div>
+                   <div class="reviews_dots_container">
+                       <span class="dot dot1" onclick="handleProfileIndex()"></span>
+                       <span class="dot dot2" onclick="handleProfileIndex()"></span>
+                       <span class="dot dot3" onclick="handleProfileIndex()"></span>
+                       <span class="dot dot4" onclick="handleProfileIndex()"></span>
+                   </div>
+                 </div>
+                 <div class="reviews_data_right_container">
+                 </div>
+                </div>
+                </div>
+                </section>
+         
     </div>
 
 
@@ -288,7 +344,7 @@
             <img alt="stop" class="stop_img" src="./images/business/stop_image.svg"/>
             <h3 class="stop_data">Stop giving your customers a reason to buy online from others</h3>
             <a href="https://becho.fastor.ai/"
-            ><button class="btn btn-primary">
+            ><button class="btn btn-primary" id="get_started_btn">
               Get Started
               <img
                 style="display: inline-block; margin-left: 0.5rem"
@@ -296,11 +352,486 @@
                 alt="arrow-right"
               /></button
           ></a>
-</div>
+        </div>
 
     </section>
 
-    <script>
+          <!-- features section -->
+          <div class="features__container"></div>
+          <!-- features section end -->
+    
+        <!--faq section start-->
+        <div class="faq__main_container"></div>
+        <!--faq section end-->
+        <div class="footer">    
+            <section id="form-section">
+            <div class="footer__contact_container">
+              <div class="custom_container flex_center">
+                <div class="footer__contact_left">
+                  <img width="70%" src="./fonts/footerContact.svg" alt="footerContact">
+                </div>
+                <div class="footer__contact_right">
+                  <div id="footer__contact_form_container_id" class="footer__contact_form_container">
+                    <h2>
+                      Our Experts manage your store, so that you focus on growing your
+                      business
+                    </h2>
+                    <div style="position: relative">
+                      <div class="footer__contact_inputField">
+                        <form id="footer__contact_input_id" style="display: flex; gap: 1rem" action="#">
+                          <div class="footer_single_input">
+                            <p class="footer__country_code">+91</p>
+                            <input id="phone_number" type="tel" placeholder="Enter Contact Number" maxlength="10" minlength="10" onchange="onChange()" onkeyup="this.value = this.value.replace(/[^0-9]/g, '')" required="">
+                          </div>
+                          <button id="footer__contact_button_id" type="submit" class="btn btn-primary">
+                            Submit
+                          </button>
+                        </form>
+                      </div>
+                      <p id="errortext"></p>
+                    </div>
+                  </div>
+        
+                  <!-- thankyou message -->
+                  <div class="footer__contact_form_container footer__contact_success hide">
+                    <img src="./fonts/thankyouImg.svg" alt="thankyou" height="63px">
+                    <div class="footer__contact_inputField">
+                      <h2>
+                        Thanks for submitting your details. We will contact you soon.
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- contact form end -->
+        
+          <!--footer start-->
+          <footer>
+            <img style="width: 100%; margin-bottom: -1rem" src="fonts/footerUp.svg" alt="steps">
+        
+            <div class="footer__container">
+              <div class="footer__bg_wrapper"></div>
+              <div class="footer__left">
+                <div class="footer__left_mobile">
+                  <a href="./"><img src="fonts/logo.svg" alt="logo"></a>
+                  <div class="footer__left_social">
+                    <img src="fonts/instagram.svg" alt="instagram" class="social_icon">
+                    <img src="fonts/facebook.svg" alt="facebook" class="social_icon">
+                    <img src="fonts/Linkedin.svg" alt="Linkedin" class="social_icon">
+                    <img src="fonts/Twitter.svg" alt="Twitter" class="social_icon">
+                  </div>
+                </div>
+      
+                  <li>
+                    <a  href="https://becho.fastor.ai/"><button id="header__btn_id" class="btn btn-primary">
+                        Get Started
+                        <img style="display: inline-block; margin-left: 0.5rem" src="fonts/arrow-right.svg" alt="arrow-right"></button></a>
+                  </li>
+        
+              </div>
+              <div class="footer__right_desktop">
+                <ul>
+                  <li class="footer__menu_heading ">Product</li>
+                  <li class="underline"><a>E-Store</a></li>
+                  <li class="underline"><a>Payment</a></li>
+                  <li class="underline"><a>Logistics</a></li>
+                  <li class="underline"><a>Inventory</a></li>
+                  <li class="underline"><a>Sales &amp; Marketing</a></li>
+                  <li class="underline"><a>Analytics</a></li>
+                  <li class="underline"><a>Billing</a></li>
+                </ul>
+                <ul>
+                  <li class="footer__menu_heading ">Business</li>
+                  <li class="underline"><a>Restaurant</a></li>
+                  <li class="underline"><a>Dine-in</a></li>
+                  <li class="underline"><a>QSR</a></li>
+                  <li class="underline"><a>Takeaway</a></li>
+                  <li class="underline"><a>Retail</a></li>
+                  <li class="underline"><a>Service</a></li>
+                  <li class="underline"><a>Entrepreneur</a></li>
+                </ul>
+                <ul>
+                  <li class="footer__menu_heading ">Channels</li>
+                  <li class="underline"><a>Direct</a></li>
+                  <li class="underline"><a>Reseller</a></li>
+                  <li class="underline"><a>Marketplace</a></li>
+                </ul>
+                <ul>
+                  <li class="footer__menu_heading">Others</li>
+                  <li ><a>FAQ</a></li>
+                  <li ><a>Terms and Conditions</a></li>
+                  <li ><a>Privacy Policy</a></li>
+                  <li ><a>About Us</a></li>
+                </ul>
+              </div>
+              <div class="footer__right_mobile">
+                <ul>
+                  <li class="footer__menu_heading"><a>Product</a>
+                    <img src="./img/arrowDown.svg" alt="down" onclick="dropDownOpen('products')" class="dropDownOpen"/>
+                    <img src="./img/arrowUp.svg" alt="up" onclick="dropDownClose('products')" class="dropDownClose hide"/>
+                  </li>
+                  <li class="footer__menu_heading"><a>Business</a>
+                    <img src="./img/arrowDown.svg" alt="down" onclick="dropDownOpen('business')" class="dropDownOpen2"/>
+                    <img src="./img/arrowUp.svg" alt="up" onclick="dropDownClose('business')" class="dropDownClose2 hide"/>
+                  </li>
+                  <li class="footer__menu_heading"><a>Channels</a>
+                    <img src="./img/arrowDown.svg" alt="down" onclick="dropDownOpen('channel')" class="dropDownOpen3"/>
+                    <img src="./img/arrowUp.svg" alt="up" onclick="dropDownClose('channel')" class="dropDownClose3 hide"/>
+                  </li>
+                </ul>
+                <div class="dropDown hide">
+                </div>
+                <ul>
+                  <li class="footer__menu_heading"><a>FAQ</a></li>
+                  <li class="footer__menu_heading"><a>Term and Conditions</a></li>
+                  <li class="footer__menu_heading"><a>Privacy Policy</a></li>
+                  <li class="footer__menu_heading"><a>About Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <p class="footer__copyright"
+            style="
+              text-align: center;
+        color: #fff;
+        font-size: var(--text-small);
+        padding: 1rem;
+        margin: 0;
+        background: rgba(39, 43, 65, 1);
+        z-index: 2;
+      
+            "
+            >Copyright 2022</p>
+          </footer>
+          </div>
+    
+
+
+<script type="module">
+    import  {header} from "./components/header.js";
+        document.querySelector(".header__container")
+        .innerHTML=header();
+    import {features} from "./components/features.js";
+        document.querySelector(".features__container")
+        .innerHTML=features();
+    import  {faq} from "./components/faq.js";
+        document.querySelector(".faq__main_container")
+        .innerHTML=faq();
+
+</script>
+
+<script>
+      (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] ||
+          (b[l] = function () {
+            (b[l].q = b[l].q || []).push(arguments);
+          });
+        b[l].l = +new Date();
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = "//www.google-analytics.com/analytics.js";
+        r.parentNode.insertBefore(e, r);
+      })(window, document, "script", "ga");
+      ga("create", "UA-XXXXX-X", "auto");
+      ga("send", "pageview");
+
+      // menu toggle
+      function menuClicked() {
+        document
+          .querySelector(".header__hamburger_close")
+          .classList.add("show");
+        document.querySelector(".header__hamburger_menu").classList.add("hide");
+        document.querySelector(".header__nav").classList.add("show");
+      }
+      function closeMenu() {
+        document
+          .querySelector(".header__hamburger_close")
+          .classList.remove("show");
+        document
+          .querySelector(".header__hamburger_menu")
+          .classList.remove("hide");
+        document.querySelector(".header__nav").classList.remove("show");
+      }
+
+
+const reviewsArr=[
+    {
+      image:"./images/business/reviews1.png",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
+      title:"James Jokovic",
+      sub_title:"IT Consultant"
+    },
+    {
+      image:"./images/business/reviews2.png", 
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
+      title:"James Jokovic 2",
+      sub_title:"IT Consultant"
+    },    
+    {
+      image:"./images/business/reviews3.png",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
+      title:"James Jokovic 3",
+      sub_title:"IT Consultant"
+    },  
+    {
+      image:"images/business/reviews4.png",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
+      title:"James Jokovic 4",
+      sub_title:"IT Consultant"
+    },    
+    {
+      image:"./images/business/reviews5.png",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
+      title:"James Jokovic 5",
+      sub_title:"IT Consultant"
+    },    
+    {
+      image: "./images/business/reviews6.png",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
+      title:"James Jokovic 6",
+      sub_title:"IT Consultant"
+    },    
+    {
+      image:"./images/business/reviews7.png",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est ullamcorper mattis lacus eu, ornare imperdiet men sana in condimentum. Viverra id tortor enim posuere nullam. Vitae tincidunt bibendum quis at viverra etiam enim dictum teb. Sit non accumsan tempus, eu suspendisse quis.",
+      title:"James Jokovic 7",
+      sub_title:"IT Consultant"
+    }
+  ]
+
+      var reviewsProfile=reviewsArr;
+     var dotIndex=0;
+
+function reviewDesktop(arr){
+    document.querySelector(".reviews_data_left_container").innerText="";
+    document.querySelector(".reviews_data_right_container").innerText="";
+    document.querySelector(".data_container").innerText="";
+
+    
+    let img=document.createElement("img");
+    img.setAttribute("class","reviewsImg");
+    img.setAttribute("id","reviews_img_1");
+    img.src=arr[1].image;
+
+    let img2=document.createElement("img");
+    img2.setAttribute("class","reviewsImg");
+    img2.setAttribute("id","reviews_img_2");
+    img2.src=arr[2].image;
+
+    let img3=document.createElement("img");
+    img3.setAttribute("class","reviewsImg");
+    img3.setAttribute("id","reviews_img_3");
+    img3.src=arr[3].image;
+document.querySelector(".reviews_data_left_container")
+.append(img,img2,img3);
+
+let img4=document.createElement("img");
+    img4.setAttribute("class","reviewsImg");
+    img4.setAttribute("id","reviews_img_4");
+    img4.src=arr[1].image;
+
+    let img5=document.createElement("img");
+    img5.setAttribute("class","reviewsImg");
+    img5.setAttribute("id","reviews_img_5");
+    img5.src=arr[2].image;
+
+    let img6=document.createElement("img");
+    img6.setAttribute("class","reviewsImg");
+    img6.setAttribute("id","reviews_img_6");
+    img6.src=arr[6].image;
+document.querySelector(".reviews_data_right_container")
+.append(img4,img5,img6);
+
+let img0=document.createElement("img");
+    img0.setAttribute("class","reviewsImg");
+    img0.setAttribute("id","reviews_img_0");
+    img0.src=arr[0].image;
+
+    let p=document.createElement("p");
+    p.setAttribute("class","reviews_data_description");
+    p.innerText=arr[0].description;
+    let p1=document.createElement("p");
+    p1.setAttribute("class","reviews_data_title");
+    p1.innerText=arr[0].title;
+    let p2=document.createElement("p");
+    p2.setAttribute("class","reviews_data_sub_title");
+    p2.innerText=arr[0].sub_title;
+
+    document.querySelector(".data_container")
+    .append(img0,p,p1,p2)
+  }
+  reviewDesktop(reviewsArr);
+
+
+      function handleProfileIndex(){
+        let arr=[...reviewsProfile];
+         let prev=arr.shift();
+         arr.push(prev);
+         reviewsProfile=arr;
+         dotIndex+=1;
+         if(dotIndex===1||dotIndex===4){
+         document.querySelector(".dot2").classList.add("dot_active");
+         document.querySelector(".dot1").classList.remove("dot_active");
+         document.querySelector(".dot3").classList.remove("dot_active");
+         document.querySelector(".dot4").classList.remove("dot_active");
+         }else if(dotIndex===2||dotIndex===5){
+         document.querySelector(".dot3").classList.add("dot_active");
+         document.querySelector(".dot1").classList.remove("dot_active");
+         document.querySelector(".dot2").classList.remove("dot_active");
+         document.querySelector(".dot4").classList.remove("dot_active");
+         }else if(dotIndex===3){
+         document.querySelector(".dot4").classList.add("dot_active");
+         document.querySelector(".dot2").classList.remove("dot_active");
+         document.querySelector(".dot3").classList.remove("dot_active");
+         document.querySelector(".dot1").classList.remove("dot_active");
+         }else{
+            document.querySelector(".dot1").classList.add("dot_active");
+         document.querySelector(".dot2").classList.remove("dot_active");
+         document.querySelector(".dot3").classList.remove("dot_active");
+         document.querySelector(".dot4").classList.remove("dot_active");
+         }
+         reviewDesktop(reviewsProfile);
+      }
+      document.querySelector(".dot1").classList.add("dot_active");
+
+
+
+      // footer dropDown
+    
+      var products=["E-store","Payments","Logistics","Inventory","Sales & Marketing","Analytics","Billing"]
+      var business=["Restaurant","Dine-in","QSR","Takeaway","Retail","Service","Entrepreneur"]
+      var channel=["Direct","Reseller","Marketplace"];
+
+  function dropDown(arr){
+  console.log(arr)
+  document.querySelector(".dropDown").innerText="";
+  arr.map((e)=>{
+    let li=document.createElement("p");
+    li.innerText=e;
+    document.querySelector(".dropDown").append(li);
+  })
+}
+
+
+      function dropDownOpen(dataName){
+        document.querySelector(".dropDown").classList.remove("hide");
+        document.querySelector(".dropDown").classList.add("showFlex");
+        if(dataName==="products"){
+        dropDown(products);
+        document.querySelector(".dropDownClose").classList.remove("hide");
+        document.querySelector(".dropDownClose").classList.add("showFlex");
+        document.querySelector(".dropDownOpen").classList.add("hide");
+        document.querySelector(".dropDownOpen").classList.remove("showFlex");
+
+        }else if(dataName==="business"){
+        dropDown(business);
+        document.querySelector(".dropDownClose2").classList.remove("hide");
+        document.querySelector(".dropDownClose2").classList.add("showFlex");
+        document.querySelector(".dropDownOpen2").classList.add("hide");
+        document.querySelector(".dropDownOpen2").classList.remove("showFlex");
+
+        }else{
+          dropDown(channel);
+          document.querySelector(".dropDownClose3").classList.remove("hide");
+        document.querySelector(".dropDownClose3").classList.add("showFlex");
+        document.querySelector(".dropDownOpen3").classList.add("hide");
+        document.querySelector(".dropDownOpen3").classList.remove("showFlex");
+
+        }
+      }
+
+      function dropDownClose(){
+        document.querySelector(".dropDown").classList.add("hide");
+        document.querySelector(".dropDown").classList.remove("showFlex");
+        document.querySelector(".dropDownOpen").classList.remove("hide");
+        document.querySelector(".dropDownOpen").classList.add("showFlex");
+        document.querySelector(".dropDownClose").classList.add("hide");
+        document.querySelector(".dropDownClose").classList.remove("showFlex");
+      }
+
+
+      // submit form start
+      function onChange() {
+        document.getElementById("errortext").style = "display:none";
+        validate();
+      }
+
+      function validate() {
+        const phone_number = document.getElementById("phone_number").value;
+
+        if (!phone_number) {
+          showError("Phone number is required");
+          return;
+        }
+        if (!/^[0-9]{10}$/.test(phone_number)) {
+          showError(
+            "Phone number is incorrect. please fill the correct details"
+          );
+          return;
+        }
+        return true;
+      }
+      function showError(text) {
+        document.getElementById("errortext").style = "display:block;color:red";
+        document.getElementById("errortext").innerText = text;
+      }
+      function thankyou() {
+        // show thank you message
+        document
+          .querySelector(".footer__contact_success")
+          .classList.remove("hide");
+        document
+          .querySelector(".footer__contact_success")
+          .classList.add("show_flex");
+        // hide form
+        document
+          .getElementById("footer__contact_form_container_id")
+          .classList.add("hide");
+      }
+
+      // ======== submit form function =========
+      var form = document.getElementById("footer__contact_input_id");
+      // Adds a listener for the "submit" event.
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        let queryParams = new URLSearchParams(window.location.search);
+
+        const phone_number = document.getElementById("phone_number").value;
+        const utm_source = queryParams.get("utm_source");
+        const utm_medium = queryParams.get("utm_medium");
+
+        if (!validate()) return;
+        const submit_btn_text = document.getElementById(
+          "footer__contact_button_id"
+        );
+        submit_btn_text.innerText = "Submitting...";
+        console.log("form submitting");
+        return fetch("https://staging.fastor.in/fastorform", {
+          method: "POST",
+          body: JSON.stringify({
+            form_id: "fastor_landing_page_form",
+            mobile: phone_number,
+            utm_source: utm_source || "none",
+            utm_medium: utm_medium || "none",
+          }),
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+        })
+          .then((data) => data.json())
+          .then((data) => data.status == "Success" && thankyou())
+          .catch((err) => {
+            console.log("error", err);
+            showError("Something went wrong. Please try again later");
+          })
+          .finally(() => {
+            submit_btn_text.innerText = "Submit";
+          });
+      });
+
+
 
     </script>
 </body>

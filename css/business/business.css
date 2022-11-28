@@ -5,7 +5,11 @@
 @import url("./b_story.css");
 @import url("./b_success.css");
 @import url("./b_seller.css");
-@import url("./b_reviews.css");
+@import url("./reviews.css");
+@import url("../header.css");
+@import url("../features.css");
+@import url("../faq.css");
+@import url("../footer.css");
 
 .main_title{
     font-size:var(--text-xlarge);
@@ -25,9 +29,9 @@
     margin-top:-2rem;
 }
 
-@media (max-width:920px){
+@media (max-width:950px){
     .main_title{
-        font-size:var(--text-low-medium);
+        font-size:var(--text-medium);
     }
     .main_description{
         font-size:12px;

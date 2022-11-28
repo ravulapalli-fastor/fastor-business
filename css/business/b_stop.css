@@ -8,17 +8,18 @@
     margin:auto;
     color:#3F4255;
     text-align: center;
+    margin-top:-3rem;
 }
 .stop_img{
-    width:100%;
-    aspect-ratio: 1.5/1;
+    width:80%;
+    aspect-ratio: 1.1/1;
+    margin-bottom: -6rem;;
 }
 
 .stop_data{
     font-size:46px;
     font-weight:700;
     line-height:120%;
-    padding:1rem;
 }
 button{
     margin:auto;
@@ -26,6 +27,9 @@ button{
 
 @media (max-width:920px){
     .stop_data{
-        font-size: 22px;
+        font-size: 20px;
+    }
+    #get_started_btn{
+        margin: auto;
     }
 }
