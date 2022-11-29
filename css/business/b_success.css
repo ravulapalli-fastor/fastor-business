@@ -6,6 +6,7 @@
     color:var(--secondary-color);
     /* border:1px solid transparent; */
     background-size: cover;
+    margin-top:-6rem;
 }
 #success_main_title{
     color:var(--secondary-color);
@@ -15,7 +16,7 @@
     /* border:1px solid yellow; */
     display:flex;
     flex-direction: column;
-    margin-top:8rem;
+    /* margin-top:8rem; */
     /* align-items: center; */
 }
 .success_data_container{
@@ -103,6 +104,10 @@
     }
 }
  @media (max-width:950px){
+
+    #success_main_title{
+        margin-top:15rem;
+    }
     .successs_percent_title{
         font-size: 24px;
     }
@@ -147,6 +152,15 @@
 .hr{
     margin:1rem auto
 }
+
+ }
+
+ @media (max-width:490px){
+
+
+    .successs_percent_title{
+        margin-top:-1rem;
+    }
 
  }
  

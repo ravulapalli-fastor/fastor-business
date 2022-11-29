@@ -279,11 +279,13 @@
 border: 1px solid #424A55;
 border-radius: 6px;
 margin:auto;
+padding:0.5rem;
 }
 .dropDown p{
   width:fit-content;
   padding:0.5rem;
   padding-bottom: 0;
+  line-height:15%;
 }
 .dropDown p:hover{
   text-decoration: underline;
@@ -299,7 +301,9 @@ margin:auto;
   display:flex;
   flex-direction: column;
 }
-
+.footer__left li{
+  list-style:none !important;
+}
 }
 
 .showFlex {

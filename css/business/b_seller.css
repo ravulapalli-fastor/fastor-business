@@ -94,11 +94,12 @@ background-clip: text;
 }
 
 @media (max-width:950px){
-    .seller_main_container{
+    /* .seller_main_container{
         margin-top:3rem;
-    }
+    } */
     .seller_title{
         font-size: 24px;
+        width:85%;
     }
     .seller_description{
         font-size: 12px;

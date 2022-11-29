@@ -76,6 +76,8 @@
     justify-content: flex-end;
    padding-right: 0%;
    margin-left: 10%;
+   gap:3rem;
+   text-align: right;
 
 }
 /* .card3{
@@ -85,8 +87,9 @@
 .card4{
     justify-content: flex-end;
      margin-left: 5%;
-    /* margin-top:-5%; */
-} 
+     gap:3rem;
+     text-align: right;
+  } 
 .card5{
     margin-left: 5%;
     margin-bottom:-28%;
@@ -114,12 +117,16 @@
 }
 
 @media (max-width:950px){
+    .story_container{
+        margin-top:-5rem;
+    }
     .story_inner_container{
         flex-direction: column-reverse;
     }
     .story_img_container{
         height:400px;
-        width:300px;
+        min-width:300px;
+        margin-top:1rem;
     }
     .story_img_container>img{
         width: 100%;
@@ -128,12 +135,12 @@
     .story_data_container{
         margin:auto;
         margin-top:4rem;
-        width:450px;
+        width:420px;
         height:700px;
     }
     .logo_container{
-        width: 51px;
-        height: 51px;
+        width: 51px !important;
+        height: 51px !important;
     }
    .story_logo{
         width: 20px;
@@ -155,11 +162,11 @@
     .card1{
         width:240px;
         margin-top:-8%;
+        margin-left:15%;
     }
     .card2{
         width:240px;
-        gap:0;
-        margin-left: 32%;
+        margin-left: 42%;
     }
     .card3{
         width:240px;
@@ -167,13 +174,13 @@
     }
     .card4{
         width:260px;
-        gap:0.8rem;
-        margin-left: 27%;
+        margin-left: 37%;
     }
     .card5{
-        width:400px;
+        width:300px;
         margin-left:19%;
-        margin-top:8%;
+        margin-top:10%;
+        margin-bottom:-35%;
     }
 
 }
@@ -193,14 +200,15 @@
    }
    .card2,.card4{
     width:200px;
-    margin-left:20%;
+    margin-left:35%;
+    text-align: justify;
    }
    .card3{
     width:200px;
     margin-left:5%;
    }
    .card4{
-    margin-left:17%;
+    margin-left:28%;
     margin-top:-10%;
    }
    .card5{
