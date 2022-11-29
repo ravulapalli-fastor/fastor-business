@@ -1,0 +1,56 @@
+.benefits2_main_container{
+    width:100%;
+    margin:auto;
+    background:url("../../images/restaurant/benefits2Bg.svg");
+    background-size: cover;
+    height:753px;
+    color:var(--secondary-color);
+
+    display:flex;
+    align-items: center;
+}
+.benefits_data_container{
+    /* padding-top:9rem; */
+    display:flex;
+    width:80%;
+    margin:auto;
+    flex-direction: column;
+    gap:3rem;
+    align-items: center;
+    justify-content: center;
+}
+#benefits2_title{
+   color:var(--secondary-color);
+   text-align: center;
+}
+.benefits2_inner_container{
+    width:70%;
+    margin:auto;
+    display:flex;
+    gap:3rem;
+}
+.benefits2_card{
+    mix-blend-mode: normal;
+/* opacity: 0.15; */
+border: 2px solid rgba(255,255,255,0.15);
+border-radius: 10px;
+width:400px;
+height:92px;
+display:flex;
+align-items: center;
+gap:2rem;
+padding-left:2rem;
+padding-right:1rem;
+}
+.benefits2_card_circle{
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+.benefits2_card_data{
+    font-size:32px;
+    font-weight:700;
+    line-height:135%;
+}
+

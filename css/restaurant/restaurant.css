@@ -9,6 +9,8 @@
 @import url("./benefits.css");
 @import url("./help.css");
 @import url("./service.css");
+@import url("./benefits2.css");
+
 
 .main_title{
     font-size:var(--text-xlarge);
