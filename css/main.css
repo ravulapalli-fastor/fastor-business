@@ -7,7 +7,7 @@
 @import url("./footer.css");
 @import url("./accouncement.css"); */
 
-@import url("./business/business.css");
+/* @import url("./business/business.css"); */
 
 html{
   scroll-behavior: smooth;
@@ -73,6 +73,7 @@ a{
 }
 }
 :root {
+  --color-bold-text:#3F4255;
   --color-text: #232f3e;
   --color-brand:#FF681A;
   --color-border:#C1C1C1;

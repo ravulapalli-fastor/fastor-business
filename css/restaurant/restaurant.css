@@ -1,16 +1,14 @@
 @import url("./b_hero.css");
-@import url("./b_stop.css");
-@import url("./b_online.css");
-@import url("./b_help.css");
-@import url("./b_story.css");
-@import url("./b_success.css");
-@import url("./b_seller.css");
-@import url("./reviews.css");
 @import url("../header.css");
-@import url("../features.css");
 @import url("../faq.css");
 @import url("../footer.css");
 @import url("../main.css");
+
+/* new parts */
+@import url("./dine.css");
+@import url("./benefits.css");
+@import url("./help.css");
+@import url("./service.css");
 
 .main_title{
     font-size:var(--text-xlarge);
@@ -33,9 +31,13 @@
 @media (max-width:950px){
     .main_title{
         font-size:var(--text-medium);
+        width:90%;
+        margin:auto
     }
     .main_description{
         font-size:12px;
-        margin-top:-1rem;
+        margin-top:0.5rem;
+        width:90%;
+        margin:auto;
     }
 }
