@@ -3,6 +3,7 @@
     margin:auto;
     /* border:1px solid red; */
    color:var(--color-bold-text);
+   margin-top:-4rem;
 }
 .dine_in_flex_card{
     /* border:1px solid blue; */
@@ -55,12 +56,19 @@
 .dots1{
     position:absolute;
     bottom:0;
+    left:5%;
 }
 .orange_arrow{
     width:70px;
     margin-left:-3rem;
     margin-bottom:-2.5rem;
 }
+.dine_img1{
+    margin:auto;
+   position:absolute;
+   left:0;
+}
+
 
 /* card2 */
 .dots2{
@@ -114,6 +122,9 @@
 
 
 @media (max-width:950px){
+    .dine_in_main_container{
+        margin-top:-1rem !important;
+    }
     .dine_in_flex_card{
         min-height:300px;
         height:300px;
@@ -126,7 +137,7 @@
         margin-top:-0.8rem;
     }
     .dots1,.dots2,.dots3,.dots4,.dots5{
-        width:10rem;
+        width:8rem;
     }
     .dots1{
         left:10%;
@@ -144,18 +155,22 @@
 @media (max-width:650px){
     .dine_in_main_container{
         width:100%;
+        margin-top: 1rem !important;
     }
     .dine_in_flex_card{
         flex-direction: column;
         min-height:fit-content;
         height:fit-content;
         gap:1rem;
+        justify-content: center;
+        align-items: center;
     }
     .dine_img_container{
         min-height:300px;
-        width:max(50%,300px);
+        min-width:300px;
         margin:auto;
         margin-top:1rem;
+        width:100%;
     }
     .dine_data_container{
         width:85%;
@@ -166,10 +181,16 @@
         margin:0 auto;
         margin-top:1rem;
     }
-    .orange_arrow{
+    .orange_arrow,.orange_curly_arrow{
         position: absolute;
         bottom:30%;
         top:65%;
         z-index: -1;
+        display:none;
+    }
+    .dine_img1{
+        margin:auto;
+       position:absolute;
+       left:0;
     }
 }

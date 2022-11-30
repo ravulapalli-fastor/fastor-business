@@ -38,10 +38,34 @@
 
 </head>
 <body>
+<div class="header__container"></div>
+
 
 <!-- main container start -->
-<div class="main_container" style="width:100%">
+<div class="main_container" style="width:100%;text-align: center;">
 
+  <!-- hero container start -->
+<div class="hero_main_container">
+  <div class="hero_left">
+    <img alt="dots" class="hero_dots" src="./images/restaurant/heroDots.svg"/>
+    <div class="hero_left_data_container">
+      <h1 class="hero_title">Online ordering system for Restaurants</h1>
+      <p class="hero_description">The website platform used by award-winning chefs and hospitality businesses.
+      </p>
+      <ul class="hero_ul">
+        <li class="hero_ul_heading">We support business like yours</li>
+        <li><img src="./images/restaurant/tick.svg" alt="tick"class="tick"/>Dine in</li>
+        <li><img src="./images/restaurant/tick.svg" alt="tick"class="tick"/>Takeaway</li>
+        <li><img src="./images/restaurant/tick.svg" alt="tick"class="tick"/>QSR</li>
+      </ul>
+    </div>
+  </div>
+  <div class="hero_right">
+    <img alt="heroImg" src="./images/restaurant/heroImg.svg"/>
+  </div>
+
+ </div>
+  <!-- hero_container end -->
 <!-- dinein section start -->
 <div class="dine_in_main_container">
     <h3 class="main_title">Dine In</h3>
@@ -50,7 +74,7 @@
         <div class="dine_in_flex_card">
              <div class="dine_img_container">
                 <img class="dots1" src="./images/restaurant/dots.svg" alt="dots"/>
-                <img src="./images/restaurant/dine1.svg" alt="dine-in" class="dine_img"/>
+                <img src="./images/restaurant/dine1.svg" alt="dine-in" class="dine_img dine_img1"/>
              </div>
              <div class="dine_data_container">
                 <img class="orange_arrow" alt="arrow" src="./images/restaurant/orangeArrow.svg"/>
@@ -75,7 +99,7 @@
        <div class="dine_in_flex_card">
         <div class="dine_img_container">
            <img class="dots3" src="./images/restaurant/dots.svg" alt="dots"/>
-           <img src="./images/restaurant/dine3.svg" alt="dine-in" class="dine_img"/>
+           <img src="./images/restaurant/dine3.svg" alt="dine-in" class="dine_img dine_img1"/>
         </div>
         <div class="dine_data_container">
            <h3 class="dine_sub_title">Fast and safe ordering for customers via QR code
@@ -149,7 +173,7 @@
         </div>
         <!-- card2 -->
         <div class="help_card help_card_with_dots ">
-            <img alt="dots" class="help_dots help_dots1" src="./images/restaurant/dots.svg"/>
+            <img alt="dots" class="help_dots help_dots1" src="./images/restaurant/dots_lessOpacity.svg"/>
             <div class="help_card_data_container right_aligned">
                 <h3 class="dine_sub_title color_gradient">Customisable Menu </h3>
                 <ul class="dine_description help_ul">
@@ -161,7 +185,7 @@
         </div>
         <!-- card3-->
         <div class="help_card help_card_with_dots">
-            <img alt="dots" class="help_dots2 help_dots" src="./images/restaurant/dots.svg"/>
+            <img alt="dots" class="help_dots2 help_dots" src="./images/restaurant/dots_lessOpacity.svg"/>
             <div class="help_card_data_container">
                 <h3 class="dine_sub_title color_gradient">Payments</h3>
                 <ul class="dine_description help_ul">
@@ -173,7 +197,7 @@
         </div>
         <!-- card4-->
         <div class="help_card help_card_with_dots ">
-            <img alt="dots" class="help_dots help_dots1" src="./images/restaurant/dots.svg"/>
+            <img alt="dots" class="help_dots help_dots1" src="./images/restaurant/dots_lessOpacity.svg"/>
             <div class="help_card_data_container right_aligned">
                 <h3 class="dine_sub_title color_gradient">Delivery</h3>
                 <ul class="dine_description help_ul">
@@ -247,11 +271,428 @@
 </div>
 </div>
 <!-- benefits2 end -->
+
+<!-- takeaway section start -->
+<div class="takeaway_main_container">
+    <div class="takeaway_title_container">
+        <h3 class="main_title">Takeaway Food Ordering system</h3>
+        <div class="takeaway_description_container">
+            <p class="main_description">Now enhance your ordering system and make a seamless process for your customers to takeaway orders.
+            </p>
+        </div>
+    </div>
+
+    <div class="takeaway_inner_container">
+        <!-- row 1 -->
+        <div class="takeaway_flex_row takeaway_flex_row1">
+            <div class="takeaway_card">Hassle free ordering system 
+            </div>
+            <div class="takeaway_card">Notified whenever a new order comes</div>
+        </div>
+        <!-- row 2 -->
+        <div class="takeaway_flex_row ">
+            <div class="takeaway_card">Dashboard for accepting orders, providing analytics and track various information</div>
+            <div class="takeaway_card">Role management system to make work easier
+            </div>
+        </div>
+        <!-- row 3 -->
+        <div class="takeaway_flex_row ">
+            <div class="takeaway_card">Accept fast and secure online payment</div>
+            <div class="takeaway_card">Multiple delivery options for customer to make process smoother
+            </div>
+        </div>
+        <!-- row 4 -->
+        <div class="takeaway_flex_row takeaway_flex_row4">
+            <div class="takeaway_card">One app to manage multiple branches</div>
+            <img class="takeaway_dots" alt="bg" src="./images/restaurant/dots_lessOpacity.svg"/>
+        </div>
+    </div>
+</div>
+<!-- taeaway end -->
+
+<!-- review start -->
+<div class="review_main_container">
+    <h3 class="main_title">Recent Reviews</h3>
+    <img class="review_comma" alt="review" src="./images/restaurant/reviewsComma.svg"/>
+    <p class="review_description">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim . Exercitation veniam consequat sunt nostrud amet.
+    </p>
+    <div class="user_name_page">
+        Kristin Watson <span>/ Restaurant</span>
+    </div>
+</div>
+<!-- review end -->
+        <!--faq section start-->
+        <div class="faq__main_container">
+            <h3 class="faq_title">FAQ</h3>
+            <div class="faq__inner_container">
+              <div class="faq__card_container">
+                <div class="faq__card_title">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+                <img src="./images/faqPlusImg.svg" alt=""/>
+              </div>
+              <div class="faq__card_container">
+                <div class="faq__card_title">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+                <img src="./images/faqPlusImg.svg" alt=""/>
+              </div>
+              <div class="faq__card_container">
+                <div class="faq__card_title">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+                <img src="./images/faqPlusImg.svg" alt=""/>
+              </div>
+              <div class="faq__card_container">
+                <div class="faq__card_title">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+                <img src="./images/faqPlusImg.svg" alt=""/>
+              </div>
+              <div class="faq__card_container">
+                <div class="faq__card_title">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+                <img src="./images/faqPlusImg.svg" alt=""/>
+              </div>
+              <div class="faq__card_container">
+                <div class="faq__card_title">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+                <img src="./images/faqPlusImg.svg" alt=""/>
+              </div>
+              
+            </div>
+    
+        </div>
+        <!--faq section end-->
 </div>
 <!-- main container end -->
-<script>
+        <div class="footer">    
+            <section id="form-section">
+            <div class="footer__contact_container">
+              <div class="custom_container flex_center">
+                <div class="footer__contact_left">
+                  <img width="70%" src="./fonts/footerContact.svg" alt="footerContact">
+                </div>
+                <div class="footer__contact_right">
+                  <div id="footer__contact_form_container_id" class="footer__contact_form_container">
+                    <h2>
+                      Our Experts manage your store, so that you focus on growing your
+                      business
+                    </h2>
+                    <div style="position: relative">
+                      <div class="footer__contact_inputField">
+                        <form id="footer__contact_input_id" style="display: flex; gap: 1rem" action="#">
+                          <div class="footer_single_input">
+                            <p class="footer__country_code">+91</p>
+                            <input id="phone_number" type="tel" placeholder="Enter Contact Number" maxlength="10" minlength="10" onchange="onChange()" onkeyup="this.value = this.value.replace(/[^0-9]/g, '')" required="">
+                          </div>
+                          <button id="footer__contact_button_id" type="submit" class="btn btn-primary">
+                            Submit
+                          </button>
+                        </form>
+                      </div>
+                      <p id="errortext"></p>
+                    </div>
+                  </div>
+        
+                  <!-- thankyou message -->
+                  <div class="footer__contact_form_container footer__contact_success hide">
+                    <img src="./fonts/thankyouImg.svg" alt="thankyou" height="63px">
+                    <div class="footer__contact_inputField">
+                      <h2>
+                        Thanks for submitting your details. We will contact you soon.
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- contact form end -->
+        
+          <!--footer start-->
+          <footer>
+            <img style="width: 100%; margin-bottom: -1rem" src="fonts/footerUp.svg" alt="steps">
+        
+            <div class="footer__container">
+              <div class="footer__bg_wrapper"></div>
+              <div class="footer__left">
+                <div class="footer__left_mobile">
+                  <a href="./"><img src="fonts/logo.svg" alt="logo"></a>
+                  <div class="footer__left_social">
+                    <img src="fonts/instagram.svg" alt="instagram" class="social_icon">
+                    <img src="fonts/facebook.svg" alt="facebook" class="social_icon">
+                    <img src="fonts/Linkedin.svg" alt="Linkedin" class="social_icon">
+                    <img src="fonts/Twitter.svg" alt="Twitter" class="social_icon">
+                  </div>
+                </div>
+      
+                  <li>
+                    <a  href="https://becho.fastor.ai/"><button id="header__btn_id" class="btn btn-primary">
+                        Get Started
+                        <img style="display: inline-block; margin-left: 0.5rem" src="fonts/arrow-right.svg" alt="arrow-right"></button></a>
+                  </li>
+        
+              </div>
+              <div class="footer__right_desktop">
+                <ul>
+                  <li class="footer__menu_heading ">Product</li>
+                  <li class="underline"><a>E-Store</a></li>
+                  <li class="underline"><a>Payment</a></li>
+                  <li class="underline"><a>Logistics</a></li>
+                  <li class="underline"><a>Inventory</a></li>
+                  <li class="underline"><a>Sales &amp; Marketing</a></li>
+                  <li class="underline"><a>Analytics</a></li>
+                  <li class="underline"><a>Billing</a></li>
+                </ul>
+                <ul>
+                  <li class="footer__menu_heading ">Business</li>
+                  <li class="underline"><a>Restaurant</a></li>
+                  <li class="underline"><a>Dine-in</a></li>
+                  <li class="underline"><a>QSR</a></li>
+                  <li class="underline"><a>Takeaway</a></li>
+                  <li class="underline"><a>Retail</a></li>
+                  <li class="underline"><a>Service</a></li>
+                  <li class="underline"><a>Entrepreneur</a></li>
+                </ul>
+                <ul>
+                  <li class="footer__menu_heading ">Channels</li>
+                  <li class="underline"><a>Direct</a></li>
+                  <li class="underline"><a>Reseller</a></li>
+                  <li class="underline"><a>Marketplace</a></li>
+                </ul>
+                <ul>
+                  <li class="footer__menu_heading">Others</li>
+                  <li ><a>FAQ</a></li>
+                  <li ><a>Terms and Conditions</a></li>
+                  <li ><a>Privacy Policy</a></li>
+                  <li ><a>About Us</a></li>
+                </ul>
+              </div>
+              <div class="footer__right_mobile">
+                <ul>
+                  <li class="footer__menu_heading"><a>Product</a>
+                    <img src="./img/arrowDown.svg" alt="down" onclick="dropDownOpen('products')" class="dropDownOpen"/>
+                    <img src="./img/arrowUp.svg" alt="up" onclick="dropDownClose('products')" class="dropDownClose hide"/>
+                  </li>
+                  <li class="footer__menu_heading"><a>Business</a>
+                    <img src="./img/arrowDown.svg" alt="down" onclick="dropDownOpen('business')" class="dropDownOpen2"/>
+                    <img src="./img/arrowUp.svg" alt="up" onclick="dropDownClose('business')" class="dropDownClose2 hide"/>
+                  </li>
+                  <li class="footer__menu_heading"><a>Channels</a>
+                    <img src="./img/arrowDown.svg" alt="down" onclick="dropDownOpen('channel')" class="dropDownOpen3"/>
+                    <img src="./img/arrowUp.svg" alt="up" onclick="dropDownClose('channel')" class="dropDownClose3 hide"/>
+                  </li>
+                </ul>
+                <div class="dropDown hide">
+                </div>
+                <ul>
+                  <li class="footer__menu_heading"><a>FAQ</a></li>
+                  <li class="footer__menu_heading"><a>Term and Conditions</a></li>
+                  <li class="footer__menu_heading"><a>Privacy Policy</a></li>
+                  <li class="footer__menu_heading"><a>About Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <p class="footer__copyright"
+            style="
+              text-align: center;
+        color: #fff;
+        font-size: var(--text-small);
+        padding: 1rem;
+        margin: 0;
+        background: rgba(39, 43, 65, 1);
+        z-index: 2;
+      
+            "
+            >Copyright 2022</p>
+          </footer>
+          </div>
+    
+
+
+<script type="module">
+    import  {header} from "./components/header.js";
+        document.querySelector(".header__container")
+        .innerHTML=header();
+    import  {faq} from "./components/faq.js";
+        document.querySelector(".faq__main_container")
+        .innerHTML=faq();
 
 </script>
+
+<script>
+      (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] ||
+          (b[l] = function () {
+            (b[l].q = b[l].q || []).push(arguments);
+          });
+        b[l].l = +new Date();
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = "//www.google-analytics.com/analytics.js";
+        r.parentNode.insertBefore(e, r);
+      })(window, document, "script", "ga");
+      ga("create", "UA-XXXXX-X", "auto");
+      ga("send", "pageview");
+
+      // menu toggle
+      function menuClicked() {
+        document
+          .querySelector(".header__hamburger_close")
+          .classList.add("show");
+        document.querySelector(".header__hamburger_menu").classList.add("hide");
+        document.querySelector(".header__nav").classList.add("show");
+      }
+      function closeMenu() {
+        document
+          .querySelector(".header__hamburger_close")
+          .classList.remove("show");
+        document
+          .querySelector(".header__hamburger_menu")
+          .classList.remove("hide");
+        document.querySelector(".header__nav").classList.remove("show");
+      }
+
+      // footer dropDown
+    
+      var products=["E-store","Payments","Logistics","Inventory","Sales & Marketing","Analytics","Billing"]
+      var business=["Restaurant","Dine-in","QSR","Takeaway","Retail","Service","Entrepreneur"]
+      var channel=["Direct","Reseller","Marketplace"];
+
+  function dropDown(arr){
+  console.log(arr)
+  document.querySelector(".dropDown").innerText="";
+  arr.map((e)=>{
+    let li=document.createElement("p");
+    li.innerText=e;
+    document.querySelector(".dropDown").append(li);
+  })
+}
+
+
+      function dropDownOpen(dataName){
+        document.querySelector(".dropDown").classList.remove("hide");
+        document.querySelector(".dropDown").classList.add("showFlex");
+        if(dataName==="products"){
+        dropDown(products);
+        document.querySelector(".dropDownClose").classList.remove("hide");
+        document.querySelector(".dropDownClose").classList.add("showFlex");
+        document.querySelector(".dropDownOpen").classList.add("hide");
+        document.querySelector(".dropDownOpen").classList.remove("showFlex");
+
+        }else if(dataName==="business"){
+        dropDown(business);
+        document.querySelector(".dropDownClose2").classList.remove("hide");
+        document.querySelector(".dropDownClose2").classList.add("showFlex");
+        document.querySelector(".dropDownOpen2").classList.add("hide");
+        document.querySelector(".dropDownOpen2").classList.remove("showFlex");
+
+        }else{
+          dropDown(channel);
+          document.querySelector(".dropDownClose3").classList.remove("hide");
+        document.querySelector(".dropDownClose3").classList.add("showFlex");
+        document.querySelector(".dropDownOpen3").classList.add("hide");
+        document.querySelector(".dropDownOpen3").classList.remove("showFlex");
+
+        }
+      }
+
+      function dropDownClose(){
+        document.querySelector(".dropDown").classList.add("hide");
+        document.querySelector(".dropDown").classList.remove("showFlex");
+        document.querySelector(".dropDownOpen").classList.remove("hide");
+        document.querySelector(".dropDownOpen").classList.add("showFlex");
+        document.querySelector(".dropDownClose").classList.add("hide");
+        document.querySelector(".dropDownClose").classList.remove("showFlex");
+      }
+
+
+      // submit form start
+      function onChange() {
+        document.getElementById("errortext").style = "display:none";
+        validate();
+      }
+
+      function validate() {
+        const phone_number = document.getElementById("phone_number").value;
+
+        if (!phone_number) {
+          showError("Phone number is required");
+          return;
+        }
+        if (!/^[0-9]{10}$/.test(phone_number)) {
+          showError(
+            "Phone number is incorrect. please fill the correct details"
+          );
+          return;
+        }
+        return true;
+      }
+      function showError(text) {
+        document.getElementById("errortext").style = "display:block;color:red";
+        document.getElementById("errortext").innerText = text;
+      }
+      function thankyou() {
+        // show thank you message
+        document
+          .querySelector(".footer__contact_success")
+          .classList.remove("hide");
+        document
+          .querySelector(".footer__contact_success")
+          .classList.add("show_flex");
+        // hide form
+        document
+          .getElementById("footer__contact_form_container_id")
+          .classList.add("hide");
+      }
+
+      // ======== submit form function =========
+      var form = document.getElementById("footer__contact_input_id");
+      // Adds a listener for the "submit" event.
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        let queryParams = new URLSearchParams(window.location.search);
+
+        const phone_number = document.getElementById("phone_number").value;
+        const utm_source = queryParams.get("utm_source");
+        const utm_medium = queryParams.get("utm_medium");
+
+        if (!validate()) return;
+        const submit_btn_text = document.getElementById(
+          "footer__contact_button_id"
+        );
+        submit_btn_text.innerText = "Submitting...";
+        console.log("form submitting");
+        return fetch("https://staging.fastor.in/fastorform", {
+          method: "POST",
+          body: JSON.stringify({
+            form_id: "fastor_landing_page_form",
+            mobile: phone_number,
+            utm_source: utm_source || "none",
+            utm_medium: utm_medium || "none",
+          }),
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+        })
+          .then((data) => data.json())
+          .then((data) => data.status == "Success" && thankyou())
+          .catch((err) => {
+            console.log("error", err);
+            showError("Something went wrong. Please try again later");
+          })
+          .finally(() => {
+            submit_btn_text.innerText = "Submit";
+          });
+      });
+
+
+
+    </script>
 </body>
 </html>
-

@@ -46,6 +46,10 @@
         text-align: center;
         padding-left:0rem;
         margin:auto;
+        margin-top:1rem;
+    }
+    .benefits_data_container ol{
+        margin-top:0.2rem;
     }
 
 }

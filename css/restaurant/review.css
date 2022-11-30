@@ -1,0 +1,47 @@
+.review_main_container{
+    width:100%;
+    margin-top:4rem;
+}
+
+.review_description{
+    font-family:"Inter";
+    font-size:var(--text-small);
+    line-height:150%;
+    font-weight: 400;
+    color:#7B7D8A;
+
+    width:50%;
+    margin:auto;
+}
+.user_name_page{
+    margin-top:2rem;
+    font-size:22px;
+    line-height:100%;
+    font-weight: 600;
+    color:#333333;
+}
+.user_name_page span{
+    font-family:"Inter";
+    font-size:var(--text-small);
+    line-height:150%;
+    font-weight: 400;
+    color:#7B7D8A;
+}
+
+@media (max-width:950px){
+    .review_comma{
+        height:50px;
+        margin-top:1.5rem;
+    }
+    .review_description,.user_name_page>span{
+        font-size:12px;
+    }
+    .user_name_page{
+        font-size:16px;
+    }
+}
+@media (max-width:650px){
+    .review_comma{
+        height:40px;
+    }
+}
