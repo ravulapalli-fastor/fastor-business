@@ -138,3 +138,24 @@ background-clip: text;
     }
 
 }
+@media (max-width:650px){
+    .seller_main_container{
+        margin-top:4rem;
+    }
+    .seller_right .seller_card{
+        flex-direction: column;
+        gap:0.2rem;
+    }
+    .seller_card1{
+        flex-direction: column;
+        gap:0.2rem;
+        min-width:120px;
+    }
+    .seller_logo1{
+        padding-left: 0;
+    }
+    .seller_middle{
+        margin-top: 10rem;
+    }
+    
+}

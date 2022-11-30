@@ -117,8 +117,8 @@
 }
 
 @media (max-width:950px){
-    .story_container{
-        margin-top:-5rem;
+    .story_main_container{
+        margin-top:-4rem;
     }
     .story_inner_container{
         flex-direction: column-reverse;
@@ -154,8 +154,11 @@
         height: 51px;
     }
     .story_description{
-        font-size: 14px;
+        font-size: 16px;
         width:70%;
+        font-family: "Inter";
+        font-weight:400;
+        line-height:150%;
     }
 
     /* positioning */
@@ -186,6 +189,10 @@
 }
 
 @media (max-width:450px){
+    .story_main_container{
+        margin-top:-5rem;
+
+    }
     .story_img_container{
         width:200px;
         height:400px;

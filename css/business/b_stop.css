@@ -33,6 +33,7 @@ button{
         margin: auto;
     }
     .stop_img{
-        margin-bottom: -4rem;
+        margin-bottom: -2rem;
+        width:90%;
     }
 }

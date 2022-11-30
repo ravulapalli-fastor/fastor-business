@@ -132,7 +132,8 @@
         justify-content: center;
     }
     .success_middle>img{
-        width:50%;
+        width:max(50%,150px);
+        /* width:50%; */
         margin-top:1.5rem;
    }
    .success_middle>img:nth-child(2){

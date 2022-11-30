@@ -79,22 +79,26 @@
 .reviews_data_description{
    font-weight: 400;
    font-family: 'Inter';
-   font-size: 18px;
+   font-size: 20px;
    width:80%;
    margin:auto;
    padding:1rem;
    line-height: 120%;
 }
 .reviews_data_title{
-   font-weight: 600;
-   /* font-family: var(--primary-font); */
-   font-size: 22px;
+  font-weight: 400;
+  font-family: "Inter";
+  font-size: 14px;
+  margin-top:-1rem;
+  line-height:22px;
+  margin-top:0.5rem;
 }
 .reviews_data_sub_title{
    font-weight: 400;
-   /* font-family: var(--primary-font); */
-   font-size: 14px;
+   font-family: "Inter";
+   font-size: 12px;
    margin-top:-1rem;
+   line-height:22px;
 }
 #reviews_img_4{
    left: 25%;
@@ -161,21 +165,23 @@
     font-size: 24px;
     width:80%;
     margin: auto;
-    margin-top:20%;
+    margin-top:25%;
   }
   .dot{
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
   }
   .reviews_data_description{
     font-size: 12px;
     line-height: 150%;
   }
-  .reviews_data_sub_title{
+  .reviews_data_title{
     font-size: 14px;
+    line-height:20px;
   }
   #reviews_img_0{
     width: 60px;
     height: 60px;
+    margin-top:-5rem
   }
 }

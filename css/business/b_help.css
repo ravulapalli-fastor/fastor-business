@@ -69,7 +69,8 @@ background-clip: text;
 
 @media (max-width:950px){
     .help_main_container{
-        margin-top:2rem;
+        margin-top:4rem;
+        padding-top: 1rem;
     }
 
     .dots_top,.dots_middle{
@@ -87,9 +88,10 @@ background-clip: text;
      }
      .help_card{
         width:90%;
-        height:200px;
+        height:220px;
         justify-content: center;
         padding-top:1rem;
+        padding-bottom:1rem;
         margin-top: -1rem;
      }
      .help_icon{
@@ -108,14 +110,19 @@ background-clip: text;
 }
 
 @media (max-width:600px){
+    .help_main_container{
+        padding-top:1rem !important;
+    }
     .help_flex_container{
         flex-direction: column;
         height:1200px;
         align-items: center;
+        margin-top:-4rem;
     }
     .help_inner_container{
         max-height:850px;
         min-height:1200px;
+        padding-top:0rem;
     }
     .help_card{
         width:100%;

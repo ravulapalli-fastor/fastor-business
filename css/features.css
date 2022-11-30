@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding: 0 3rem;
-    margin: 3rem auto 3rem auto;
+    margin: 4rem auto 3rem auto;
     position:relative;
 }
 .features__title{
@@ -75,7 +75,7 @@
 /* mobile responsive */
 @media (max-width: 920px) {
     .features__container{
-        margin-top:2rem;
+        margin-top:3rem;
     }
     .pos_mobile{
         display:flex;
